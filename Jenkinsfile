@@ -13,7 +13,7 @@ pipeline {
       success {
             mail to: "angelinmyheart.98@gmail.com",
             subject: "[${env.BUILD_NUMBER}] - ${env.JOB_NAME} - ${currentBuild.result}",
-            body: "OK",
+            body: "OK"
       }
     }
 }
