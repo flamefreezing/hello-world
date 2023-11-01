@@ -18,8 +18,7 @@ pipeline {
                         <p>Result: <strong>${currentBuild.result}</strong></p>
                         <p>For further information, please refer to <a href="${env.BUILD_URL}">here</a></p>
                     </body>
-              </html>'''
-        ,
+              </html>''',
         attachLog: true
       }
     }
