@@ -12,7 +12,7 @@ pipeline {
     post {
       always {
         emailext(
-            mail to: "duong.chieu.nguyen98@gmail.com, angelinmyheart.98@gmail.com",
+            to: "duong.chieu.nguyen98@gmail.com, angelinmyheart.98@gmail.com",
             subject: "[${env.BUILD_NUMBER}] - ${env.JOB_NAME} - ${currentBuild.result}",
             body: '''<html>
                         <body>
