@@ -19,7 +19,6 @@ pipeline {
                         <p>For further information, please refer to <a href="${env.BUILD_URL}">here</a></p>
                     </body>
               </html>''',
-        attachLog: true
       }
     }
 }
